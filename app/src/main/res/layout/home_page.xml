@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="1dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="#8A1111"
+    >
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:padding="2dp"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/tvdata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rahul Vishwakarma"
+                android:textColor="@color/white"
+                android:textSize="12dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/passdata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pass"
+                android:textColor="@color/white"
+                android:textSize="12dp"/>
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/emaildata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/white"
+                android:textSize="12dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/white"
+        />
+</LinearLayout>
